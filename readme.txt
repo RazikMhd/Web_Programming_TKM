@@ -1,6 +1,3 @@
-# Web_Programming_TKM
-Web Programming work for TKMCE
-
 Bio Data Development (HTML)
 1.Designed the biodata format using basic html components such as tables,headers,hyperlinks and so on.
 2.I used the Visual Studio Code IDE for Development & Google Chrome Browser for rendering the webpage.
@@ -21,8 +18,3 @@ GIT Key-Pairing
 3. Go to gitHub, Settings>SSH & GPG keys>Add Key
 4. Copy Paste the key value into the field given.
 5. type the 'ssh -T git@github.com' and provide the passphrase.
-
-
-
-
-
