@@ -1,0 +1,70 @@
+<html>
+<script>
+
+function findScore()
+{
+    var score = 0;
+    if(document.getElementById("q14").checked)
+    {
+        score+=1;
+    }
+    if(document.getElementById("q23").checked)
+    {
+        score+=1;
+    }
+    if(document.getElementById("q31").checked)
+    {
+        score+=1;
+    }
+    alert("Your Score is : "+score)
+}
+
+</script>
+<body>
+
+<form>
+<b>Q.1. Which is the capital of UK ?</b><br><br>
+<input type="radio" id="q11" name="q1">
+<label for="q11">Madrid</label><br>
+<input type="radio" id="q12" name="q1">
+<label for="q12">Liverpool</label><br>
+<input type="radio" id="q13" name="q1">
+<label for="q13">Paris</label><br>
+<input type="radio" id="q14" name="q1">
+<label for="q14">London</label><br>
+<hr>
+
+<b>Q.2. Which of the following is not a programming language ?</b><br><br>
+<input type="radio" id="q21" name="q2">
+<label for="q21">Java</label><br>
+<input type="radio" id="q22" name="q2">
+<label for="q22">Python</label><br>
+<input type="radio" id="q23" name="q2">
+<label for="q23">HTML</label><br>
+<input type="radio" id="q24" name="q2">
+<label for="q24">C++</label><br>
+<hr>
+
+<b>Q.3. '*' arithemetic operator in programming refers to ?</b><br><br>
+<input type="radio" id="q31" name="q3">
+<label for="q21">Multiplication</label><br>
+<input type="radio" id="q32" name="q3">
+<label for="q22">Subtraction</label><br>
+<input type="radio" id="q33" name="q3">
+<label for="q23">Division</label><br>
+<input type="radio" id="q34" name="q3">
+<label for="q24">Addition</label><br>
+<hr>
+
+<br>
+<button onClick="findScore()" >Submit</button>
+
+</form>
+
+
+
+
+</body>
+</html>
+
+
