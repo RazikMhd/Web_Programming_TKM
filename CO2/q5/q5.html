@@ -1,0 +1,19 @@
+<html>
+<script>
+function transform()
+{
+    document.getElementById("box").style.backgroundImage = "url('brazil.svg')";
+    document.getElementById("box").style.backgroundPosition = "center center";
+}
+
+function transformBack()
+{
+    document.getElementById("box").style.backgroundImage = "url('uk.svg')";
+    document.getElementById("box").style.backgroundPosition = "center center";
+}
+
+</script>
+<body>
+<div style="background:url('uk.svg');height:400px;width:800px;background-position:center center;" onmouseover="transform()" onmouseout="transformBack()" id="box"></div>
+</body>
+</html>
