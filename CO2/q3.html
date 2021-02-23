@@ -1,0 +1,56 @@
+<html>
+
+<script type="text/javascript">
+    function validate()
+    {
+        var name =  document.forms["rform"]["name"].value;
+        var city =  document.forms["rform"]["city"].value;
+        var email =  document.forms["rform"]["email"].value;
+        var dob =  document.forms["rform"]["dob"].value;
+        var valid = true;
+
+        if(name.length<=0)
+        {
+            alert("Please Enter Your Name.");
+            valid = false;
+        }
+        else if(city.length<=0)
+        {
+            alert("Please Enter Your City.");
+            valid = false;
+        }
+        else if(email.length<=0)
+        {
+            alert("Please Enter Your email.");
+            valid = false;
+        }
+        else if(dob.length<=0)
+        {
+            alert("Please Enter Your Date of Birth.");
+            valid = false;
+        }
+
+        if(valid)
+        {
+            alert("Congratulations! Your form has been submitted successfully."); 
+        }
+
+        
+    }
+</script>
+
+<body>
+    <br>
+    <h1 style="text-align:center;">Registeration Form</h1>
+    <div style="text-align:center;">
+    <form method="post" name="rform">
+    <input type="text" placeholder="Enter Your Name" id="name"><br>
+    <input type="text" placeholder="Enter Your City" id="city"><br>
+    <input type="email" placeholder="Enter Your Email" id="email"><br><br>
+    <label for="dob">Date of Birth : <br></label>
+    <input type="date" id="dob"><br><br>
+    <input type="button" value="Submit" onclick="validate()">
+    </form>  
+    </div>  
+</body>    
+</html>
