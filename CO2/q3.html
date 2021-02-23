@@ -3,10 +3,13 @@
 <script type="text/javascript">
     function validate()
     {
-        var name =  document.forms["rform"]["name"].value;
-        var city =  document.forms["rform"]["city"].value;
-        var email =  document.forms["rform"]["email"].value;
-        var dob =  document.forms["rform"]["dob"].value;
+
+        var name =  document.getElementById("name").value;
+        var city =  document.getElementById("city").value;
+        var email =  document.getElementById("email").value;
+        var dob =  document.getElementById("dob").value;
+
+
         var valid = true;
 
         if(name.length<=0)
