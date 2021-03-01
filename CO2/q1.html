@@ -1,22 +1,35 @@
 <html>
     <head>
-        <title>dffig</title>
+        <title>Math & String Functions</title>
     </head>
     <body>
         <script>
-            var num=Math.abs(-2)
-            document.write("absolute value",+num);
-            var str="This is good";
-            document.write("<br>")
-            document.write("char at 0 is:"+str.charAt(0));
-            document.write("<br>index of good"+str.indexOf("good"));
-            var c=45.20
-            var x=Math.ceil(c)
-            document.write("<br>ceil value of no is"+x);
-            var lw="this is this";
-            document.write("<br>to upper"+str.toUpperCase(lw));
-            var power=Math.pow(2,2);
-            document.write("<br> power of the given number is"+power);
+
+			
+			document.write("<h1>Math Functions</h1>");
+			
+			document.write("1. Math.round() : <code>Math.round(56.3234)</code> => "+Math.round(56.3234)+"<br>");
+			document.write("2. Math.pow() : <code>Math.pow(5, 7)</code> => "+Math.pow(5, 7)+"<br>");
+			document.write("3. Math.sqrt() : <code>Math.abs(4096)</code> => "+Math.sqrt(4096)+"<br>");
+			document.write("4. Math.abs() : <code>Math.abs(-89)</code> => "+Math.abs(-89)+"<br>");
+			document.write("5. Math.random() : <code>Math.random()</code> => "+Math.random()+"<br>");
+			
+			
+			document.write("<h1>String Functions</h1>");
+			
+			var sentence = "Hello World !";
+			var anotherSentence = "This is first programme";
+			document.write("1. sentence.toLowerCase() : <code>sentence.toLowerCase()</code> => "+sentence.toLowerCase()+"<br>");
+			document.write("2. sentence.toUpperCase() : <code>sentence.toUpperCase()</code> => "+sentence.toUpperCase()+"<br>");
+			document.write("3. sentence.concat(' ',anotherSentence) : <code>sentence.concat(' ',anotherSentence)</code> => "+sentence.concat(' ',anotherSentence)+"<br>");
+			document.write("4. sentence.includes() : <code>sentence.includes('world')</code> => "+sentence.includes("World")+"<br>");
+			document.write("5. sentence.slice() : <code>sentence.slice(3,10)</code> => "+sentence.slice(3,10)+"<br>");
+		str
+			
+		
+			Math.round()
+			
+			
 
         </script>
     </body>
