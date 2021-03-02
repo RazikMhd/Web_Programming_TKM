@@ -1,18 +1,26 @@
 <html>
 <body>
+    <br><br>
     <form>
-        <table>
+        <table align="center" style="border-style: dashed;background-color: lightgreen; border-color: darkgreen;color: darkslategray;">
+            <tr>
+                <td colspan="2"><h1 align="center">Registration Form</h1></td>
+            </tr>
             <tr>
                 <td><label for="name">Enter Name :</label></td>
                 <td><input type="text" placeholder="ex. Mohammed Rasik" id="name"></td>
             </tr>
             <tr>
                 <td><label for="name">Enter e-mail :</label></td>
-                <td><input type="email" placeholder="ex. abc@xyz.com" id="email"></td>
+                <td><input type="email" placeholder="ex. abc@xyz.com"  id="email"></td>
             </tr>
             <tr>
                 <td><label for="name">Enter Phone No. :</label></td>
                 <td> <input type="tel" id="phone" name="phone" pattern="[0-9]{12}" placeholder="ex. 919876543210" ></td>
+            </tr>
+            <tr align="center">
+                <td><input type="submit" style="width:100%"></td>
+                <td><input type="reset" style="width:100%"></td>
             </tr>
         </table>
     </form>
