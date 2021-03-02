@@ -1,6 +1,7 @@
 <?php 
 
-$players = array("Sachin","Ganguly","Dravid","Kohli","Kumble");
+$names = $_POST['players'];
+$players = explode(",",$names);
 
 echo "<table border='1'>";
 echo "<tr><th>Players</th></tr>";
