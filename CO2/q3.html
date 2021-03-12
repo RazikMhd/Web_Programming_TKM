@@ -44,15 +44,19 @@
 
 <body>
     <br>
-    <h1 style="text-align:center;">Registeration Form</h1>
+    <br>
+    <br>
     <div style="text-align:center;">
     <form method="post" name="rform">
-    <input type="text" placeholder="Enter Your Name" id="name"><br>
-    <input type="text" placeholder="Enter Your City" id="city"><br>
-    <input type="email" placeholder="Enter Your Email" id="email"><br><br>
-    <label for="dob">Date of Birth : <br></label>
-    <input type="date" id="dob"><br><br>
-    <input type="button" value="Submit" onclick="validate()">
+	<table align="center" style="background-color: lightgreen;">
+    <tr><td><h1 style="text-align:center;color:seagreen">Registeration Form</h1></td></tr>
+	<tr><td><input type="text" placeholder="Enter Your Name" id="name" style="width:100%"></td></tr>
+	<tr><td><input type="text" placeholder="Enter Your City" id="city" style="width:100%"></td></tr>
+	<tr><td><input type="email" placeholder="Enter Your Email" id="email" style="width:100%"></td></tr>
+	<tr><td align="center"><label for="dob" >Date of Birth : <br></label></td></tr>
+	<tr><td align="center"><input type="date" id="dob" style="width:100%"></td></tr>
+	<tr><td><input type="button" value="Submit" onclick="validate()" style="width:100%"></td></tr>
+	</table>
     </form>  
     </div>  
 </body>    
